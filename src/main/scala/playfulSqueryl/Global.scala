@@ -6,7 +6,6 @@ import org.squeryl.adapters.{H2Adapter, PostgreSqlAdapter}
 import org.squeryl.{Session, SessionFactory}
 import org.squeryl.internals.DatabaseAdapter
 
-//TODO: DRY with global in one-rp
 object Global extends GlobalSettings {
 
 	override def onStart(app: Application) {
