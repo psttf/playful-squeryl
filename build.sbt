@@ -14,5 +14,7 @@ libraryDependencies ++= (Seq(
 
 resolvers ++= Seq(
   "Online Play Repository" at
-    "http://repo.typesafe.com/typesafe/maven-releases/"
+    "http://repo.typesafe.com/typesafe/maven-releases/",
+  "Akka Releases" at "http://repo.akka.io/releases",
+  "Jerkson Repository" at "http://repo.codahale.com"
 )
